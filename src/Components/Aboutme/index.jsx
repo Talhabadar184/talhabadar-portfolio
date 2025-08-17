@@ -77,7 +77,7 @@ const AboutMe = () => {
               {/* Main Image */}
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-80 lg:h-80 mx-auto overflow-hidden rounded-3xl shadow-2xl">
                 <img
-                  src="/talha.jpg"
+                  src="/talha1.jpeg"
                   alt="Talha Badar"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                 />
