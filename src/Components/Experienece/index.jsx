@@ -17,17 +17,6 @@ const experiences = [
   },
   
   {
-    role: "Juniour Webmaster",
-    company: "IEEE Computer Society – UCP Student Chapter",
-    date: "October 2024 - Present",
-    logo: "/Logo2.png",
-    description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
-    skills: ["Website Management", "User Experience"],
-    type: "Academic",
-    icon: <FiGlobe />,
-    gradient: "from-emerald-400 to-teal-500"
-  },
-  {
     role: "Freelance Developer",
     company: "International Clients",
     date: "2024 - Present",
@@ -38,6 +27,17 @@ const experiences = [
     icon: <FaRocket />,
     gradient: "from-orange-400 to-red-500"
   }
+  // {
+  //   role: "Freelance Developer",
+  //   company: "International Clients",
+  //   date: "2024 - Present",
+  //   logo: "https://cdn.dribbble.com/users/2059160/screenshots/4413086/media/2dfeaf608392e326b8078431e1ac9f37.jpg?resize=400x300&vertical=center",
+  //   description: "Delivering unique software solutions to customers worldwide via local projects, Fiverr, and Upwork.  committed to developing high-performing, responsive web apps and including customized features to meet particular company needs in order to guarantee outstanding customer pleasure and enduring collaborations.",
+  //   skills: ["Performance Optimization", "Custom Solutions", "Client Management",  "Business Requirements"],
+  //   type: "Freelance",
+  //   icon: <FaRocket />,
+  //   gradient: "from-orange-400 to-red-500"
+  // }
 ];
 
 const ExperienceCard = ({ exp, index, isLast }) => (
