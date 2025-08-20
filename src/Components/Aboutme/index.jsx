@@ -140,7 +140,7 @@ const AboutMe = () => {
                   transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
                 >
                   <div
-                    className={`w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br ${stat.color} flex items-center justify-center mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300`}
+                  className={`w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br ${stat.color} flex items-center justify-center mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300`}
                   >
                     {stat.icon}
                   </div>
@@ -170,16 +170,11 @@ const AboutMe = () => {
 
               <div className="space-y-3 sm:space-y-4 text-gray-300 leading-relaxed">
                 <p className="text-base sm:text-lg">
-                  I'm a MERN Stack Developer, AI Engineer, and ML/DL enthusiast
-                  with a passion for creating innovative digital solutions. My
-                  journey in technology has been driven by curiosity and a
-                  desire to solve complex problems.
+                  As a MERN Stack developer, AI engineer, and ML/DL enthusiast, I'm passionate about developing cutting-edge digital solutions. Curiosity and a desire to find solutions to challenging issues have motivated my technological journey.
                 </p>
 
                 <p className="text-base sm:text-lg">
-                  With expertise in React, Next, Tailwind CSS, , and Python , I
-                  specialize in building scalable, intelligent applications that
-                  drive business growth and user engagement.
+                  With proficiency in Python, React, Next, Node and Tailwind CSS, I am an expert in creating intelligent, scalable applications that promote user engagement and business expansion.
                 </p>
               </div>
             </div>

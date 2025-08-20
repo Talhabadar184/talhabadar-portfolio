@@ -5,7 +5,7 @@ import {FaRocket, FaBrain, FaCogs, FaMobile, FaWordpress} from "react-icons/fa";
 const offeringsData = [
   {
     id: 1,
-    title: "Full-Stack Development",
+    title: "Full-Stack/MERN-stack Development",
     description: "End-to-end web application development using modern technologies. From concept to deployment, I handle both frontend and backend development with scalable architecture.",
     icon: <FaRocket />,
     features: ["React/Next.js Frontend", "Node.js/Spring Boot Backend", "Database Design & Optimization", "API Development", "DevOps & Deployment"],
