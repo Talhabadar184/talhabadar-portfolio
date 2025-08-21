@@ -137,9 +137,10 @@ const LanguagesTools = () => {
   }, []);
 
   return (
-    <section className="relative py-12 sm:py-16 lg:py-20 overflow-hidden" style={{
-  background: "linear-gradient(135deg, #000428 0%, #004e92 100%)"
-}}
+    <section className="relative py-12 sm:py-16 lg:py-20 overflow-hidden" 
+//     style={{
+//   background: "linear-gradient(135deg, #000428 0%, #004e92 100%)"
+// }}
 >
       {/* Animated Background Elements */}
       <div className="absolute inset-0">

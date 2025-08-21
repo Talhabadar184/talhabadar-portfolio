@@ -99,9 +99,11 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <section id="contact" className="relative py-20 overflow-hidden" style={{
-      background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%)'
-    }}>
+    <section id="contact" className="relative py-20 overflow-hidden" 
+    // style={{
+    //   background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%)'
+    // }}
+    >
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl animate-pulse"></div>

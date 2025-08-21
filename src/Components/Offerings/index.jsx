@@ -55,9 +55,10 @@ const Offerings = () => {
 
   return (
     <section id="services" className="relative py-12 sm:py-16 lg:py-20 overflow-hidden" 
-    style={{
-  background: "linear-gradient(135deg, #000428 0%, #004e92 100%)"
-}}>
+//     style={{
+//   background: "linear-gradient(135deg, #000428 0%, #004e92 100%)"
+// }}
+>
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-64 h-64 sm:w-80 sm:h-80 lg:w-80 lg:h-80 bg-cyan-500/5 rounded-full blur-3xl animate-pulse"></div>
