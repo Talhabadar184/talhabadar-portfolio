@@ -6,9 +6,9 @@ import { FaRocket, FaBrain, FaCogs } from "react-icons/fa";
 const experiences = [
   {
     role: "MERN Stack Developer",
-    company: "Startup company",
+    company: "Innovation.tech",
     date: "August 2024 - October 2024",
-    logo: "",
+    logo: "https://innovationhightech.com/wp-content/uploads/2021/04/cropped-cropped-Redraw-Design-Friend-1.png",
     description: "Developed and maintained mern-stack web applications, leveraging React for dynamic, responsive front-end interfaces, scalable back-end services. Implemented RESTful APIs and ensured high-performance application delivery through clean, maintainable code and industry best practices.",
     skills: ["React", "Node.js", "REST APIs", " Redux "],
     type: "Startup",
@@ -121,7 +121,7 @@ const ExperienceCard = ({ exp, index, isLast }) => (
           <img
                   src={exp.logo}
                   alt={exp.company}
-            className="w-8 h-8 sm:w-10 sm:h-10 object-cover rounded-lg border border-white/20"
+            className="w-8 h-8 sm:w-10 sm:h-10 bg-white object-cover rounded-lg border border-white/20"
           />
           <span className="text-xs sm:text-sm text-gray-400 hidden sm:block">Company Logo</span>
         </div>
