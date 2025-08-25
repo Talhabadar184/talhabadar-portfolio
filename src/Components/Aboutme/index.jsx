@@ -20,8 +20,8 @@ const AboutMe = () => {
 
   const downloadCV = useCallback(() => {
     const link = document.createElement("a");
-    link.href = "/Talha_Badar_Resume (1).pdf";
-    link.download = "Talha_Badar_Resume (1).pdf";
+    link.href = "/Talha_Badar_Resume.pdf";
+    link.download = "Talha_Badar_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
