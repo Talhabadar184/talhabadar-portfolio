@@ -31,12 +31,13 @@ const App = () => {
         <section id="experience">
           <Experience />
         </section>
-        <section id="languages">
-          <LanguagesTools />
-        </section>
         <section id="projects">
           <Projects />
         </section>
+        <section id="languages">
+          <LanguagesTools />
+        </section>
+        
         <section id="services">
           <Offerings />
         </section>

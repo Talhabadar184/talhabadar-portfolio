@@ -11,7 +11,7 @@ const LandingPage = () => {
 
   useEffect(() => {
     setIsVisible(true);
-    
+
     const handleMouseMove = (e) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
@@ -30,7 +30,7 @@ const LandingPage = () => {
   const skills = [
     { icon: <FiCode size={18} className="sm:w-5 sm:h-5" />, text: "MERN-Stack Development" },
     { icon: <FaBrain size={18} className="sm:w-5 sm:h-5" />, text: "AI/ML Engineering" },
-      { icon: <FaCogs size={18} className="sm:w-5 sm:h-5" />, text: " Cloud Computing" },
+    { icon: <FaCogs size={18} className="sm:w-5 sm:h-5" />, text: " Cloud Computing" },
     { icon: <FiZap size={18} className="sm:w-5 sm:h-5" />, text: "UI/UX Design" }
   ];
 
@@ -39,14 +39,14 @@ const LandingPage = () => {
       background: 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%)'
     }}>
 
-       {/* Particles Background */}
+      {/* Particles Background */}
       <ParticlesBg />
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-64 h-64 sm:w-80 sm:h-80 lg:w-80 lg:h-80 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-1/2 w-48 h-48 sm:w-64 sm:h-64 lg:w-64 lg:h-64 bg-emerald-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
-        
+
         {/* Mouse-following element
         <div 
           className="absolute w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 rounded-full blur-2xl pointer-events-none transition-transform duration-300 ease-out"
@@ -109,9 +109,9 @@ const LandingPage = () => {
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
           <span className="bg-gradient-to-r from-white via-cyan-100 to-white bg-clip-text text-transparent">
-  Hello, World.
+            Hello, World.
           </span>
-</motion.h1>
+        </motion.h1>
 
         <motion.h2
           className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight px-2"
@@ -157,7 +157,7 @@ const LandingPage = () => {
 
         {/* CTA Button */}
         <motion.button
-  onClick={scrollToAbout}
+          onClick={scrollToAbout}
           className="group relative px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 text-lg sm:text-xl font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/25"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -167,16 +167,16 @@ const LandingPage = () => {
         >
           {/* Button Background */}
           <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-700 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-          
+
           {/* Button Content */}
           <div className="relative flex items-center gap-2 sm:gap-3">
             <span>Explore My World</span>
             <FiArrowDown className="group-hover:translate-y-1 transition-transform duration-300" />
           </div>
-          
+
           {/* Shine Effect */}
           <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
-</motion.button>
+        </motion.button>
       </div>
 
       {/* Scroll Indicator */}
