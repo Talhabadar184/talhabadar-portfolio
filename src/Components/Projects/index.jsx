@@ -477,19 +477,6 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                   <FiGithub className="text-cyan-400" size={16} />
                   Project Links
                 </h3>
-                <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
-                  {project.codeLink && project.codeLink !== "#" && (
-                    <a
-                      href={project.codeLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 px-4 py-2 sm:py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 text-sm sm:text-base"
-                    >
-                      <FiGithub size={16} />
-                      View Code on GitHub
-                    </a>
-                  )}
-                </div>
                 <div className="flex mt-4 flex-col sm:flex-row gap-2 sm:gap-4">
                   {project.codeLink && project.codeLink !== "#" && (
                     <a
@@ -503,6 +490,20 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                     </a>
                   )}
                 </div>
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
+                  {project.codeLink && project.codeLink !== "#" && (
+                    <a
+                      href={project.codeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center gap-2 px-4 py-2 sm:py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 text-sm sm:text-base"
+                    >
+                      <FiGithub size={16} />
+                      View Code on GitHub
+                    </a>
+                  )}
+                </div>
+                
               </div>
             </div>
           </motion.div>

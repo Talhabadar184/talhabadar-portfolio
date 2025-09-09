@@ -131,7 +131,7 @@ const LandingPage = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.6, ease: "easeOut" }}
         >
-          MERN-Stack Developer • AI Engineer  • Creative Problem Solver
+          BS Computer Science • MERN-Stack Developer • AI Engineer • Creative Problem Solver
         </motion.p>
 
         {/* Skills Grid */}

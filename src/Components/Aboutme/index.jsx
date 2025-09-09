@@ -10,6 +10,8 @@ import {
   FaLightbulb,
 } from "react-icons/fa";
 import { FiUser, FiAward, FiTarget, FiTrendingUp } from "react-icons/fi";
+import { FaGraduationCap } from "react-icons/fa6";
+
 
 const AboutMe = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -179,12 +181,32 @@ const AboutMe = () => {
               </div>
             </div>
 
+            {/* Education */}
+            <div>
+              <h1 className="text-lg sm:text-xl font-semibold text-white mb-3 sm:mb-4 flex items-center gap-2">
+              <FaGraduationCap className="text-cyan-400" />
+              Education
+              
+              </h1>
+              <div>
+              <span className="font-semibold text-white" >BS Computer Science</span>
+              </div>
+              <div>
+              <span className=" mt-4 font-semibold text-white" >University of Central Punjab</span>
+              </div>
+              <div>
+              <p className="mt-2 text-sm sm:text-base text-white" >2022 - Present  </p>
+              </div>
+            </div>
+
             {/* Skills */}
             <div>
               <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 sm:mb-4 flex items-center gap-2">
                 <FiTarget className="text-cyan-400" />
                 Core Competencies
+
               </h3>
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                 {skills.map((skill, index) => (
                   <motion.div
