@@ -346,6 +346,18 @@ const projects = [
   },
   {
     id: 4,
+    title: "Thriftly - Pakistan's Leading Thrift Store",
+    description: "Developed and maintained the official website for Thriftly, Pakistan's leading thrift store, using WordPress. Enhanced user experience by implementing custom themes and plugins, optimizing site performance, and ensuring mobile responsiveness.",
+    image: "/thriftly.png",
+    liveLink: "https://ieee-ucp.org",
+    codeLink: "",
+    technologies: ["React", "Node.js", "PostgreSQL", "Express"],
+    category: "Full-Stack",
+    difficulty: "Advanced",
+    features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
+  },
+  {
+    id: 5,
     title: "IEEE Computer Society UCP Chapter",
     description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
     image: "/ieecs.png",
