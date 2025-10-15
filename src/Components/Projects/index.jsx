@@ -334,18 +334,6 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce with mui",
-    description: "Developed a responsive e-commerce application using Material-UI and MERN stack. Implemented features like product listings, shopping cart, and user authentication.",
-    image: "/mui.png",
-    liveLink: "https://ecommercemui.vercel.app/Signup",
-    codeLink: "https://github.com/Talhabadar184/E-commerce-mui",
-    technologies: ["React", "Node.js", "Redux", "Express", "Material-UI"],
-    category: "MERN-Stack",
-    difficulty: "Advanced",
-    features: ["Product Listings", "Shopping Cart", "User Authentication", "Order Management", "Payment Integration"]
-  },
-  {
-    id: 4,
     title: "Thriftly - Pakistan's Leading Thrift Store",
     description: "Developed and maintained the official website for Thriftly, Pakistan's leading thrift store, using WordPress. Enhanced user experience by implementing custom themes and plugins, optimizing site performance, and ensuring mobile responsiveness.",
     image: "/thriftly.png",
@@ -355,6 +343,18 @@ const projects = [
     category: "Full-Stack",
     difficulty: "Advanced",
     features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
+  },
+  {
+    id: 4,
+    title: "E-commerce with mui",
+    description: "Developed a responsive e-commerce application using Material-UI and MERN stack. Implemented features like product listings, shopping cart, and user authentication.",
+    image: "/mui.png",
+    liveLink: "https://ecommercemui.vercel.app/Signup",
+    codeLink: "https://github.com/Talhabadar184/E-commerce-mui",
+    technologies: ["React", "Node.js", "Redux", "Express", "Material-UI"],
+    category: "MERN-Stack",
+    difficulty: "Advanced",
+    features: ["Product Listings", "Shopping Cart", "User Authentication", "Order Management", "Payment Integration"]
   },
   {
     id: 5,
