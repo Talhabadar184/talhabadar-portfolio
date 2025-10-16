@@ -342,7 +342,14 @@ const projects = [
     technologies: ["React", "Node.js", "PostgreSQL", "Express"],
     category: "Full-Stack",
     difficulty: "Advanced",
-    features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
+features: [
+  "Product Listings & Discovery",
+  "Smart Search & Filters",
+  "Order Management",
+  "User Profiles ",
+  "Responsive UI",
+  "Sustainability-Focused Shopping"
+]
   },
   {
     id: 4,
@@ -398,130 +405,140 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
 
   return (
     <AnimatePresence>
-      {isOpen && (
-        <motion.div
-          className="fixed inset-0 z-[9999] flex items-start sm:items-center justify-center p-2 sm:p-4 pt-16 sm:pt-4"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          onClick={onClose}
-        >
-          {/* Backdrop */}
-          <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" />
-          
-          {/* Modal Content */}
-                            <motion.div
-            className="relative w-full max-w-6xl mx-2 sm:mx-4 max-h-[85vh] sm:max-h-[95vh] overflow-y-auto bg-gray-900 rounded-xl sm:rounded-2xl border border-white/20 z-[10000] mt-4 sm:mt-0"
-            initial={{ scale: 0.9, opacity: 0, y: 20 }}
-            animate={{ scale: 1, opacity: 1, y: 0 }}
-            exit={{ scale: 0.9, opacity: 0, y: 20 }}
-            onClick={(e) => e.stopPropagation()}
+  {isOpen && (
+    <motion.div
+      className="fixed inset-0 z-[9999] flex items-start sm:items-center justify-center p-2 sm:p-4 pt-16 sm:pt-28"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      onClick={onClose}
+    >
+      {/* Backdrop */}
+      <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" />
+
+      {/* Modal Content */}
+      <motion.div
+        className="relative w-full max-w-6xl mx-2 sm:mx-4 max-h-[90vh] overflow-y-auto bg-gray-900 rounded-xl sm:rounded-2xl border border-white/20 z-[10000] mt-4 sm:mt-0 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-800 scroll-smooth"
+        initial={{ scale: 0.9, opacity: 0, y: 20 }}
+        animate={{ scale: 1, opacity: 1, y: 0 }}
+        exit={{ scale: 0.9, opacity: 0, y: 20 }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="relative p-4 sm:p-6 border-b border-white/10">
+          <button
+            onClick={onClose}
+            className="absolute top-2 right-2 sm:top-4 sm:right-4 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors z-10"
           >
-            {/* Header */}
-            <div className="relative p-4 sm:p-6 border-b border-white/10">
-              <button
-                onClick={onClose}
-                className="absolute top-2 right-2 sm:top-4 sm:right-4 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors z-10"
-              >
-                <FiX className="text-white" size={18} />
-              </button>
-              
-              <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 pr-12">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded-xl border border-white/20 flex-shrink-0"
-                />
-                <div className="flex-1 min-w-0">
-                  <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-2 leading-tight">{project.title}</h2>
-                  <div className="flex flex-wrap items-center gap-2 sm:gap-4 mb-3 sm:mb-4">
-                    <span className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-gradient-to-r ${getCategoryColor(project.category)} text-white`}>
-                      {project.category}
-                    </span>
-                    <span className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-gradient-to-r ${getDifficultyColor(project.difficulty)} text-white`}>
-                      {project.difficulty}
-                    </span>
-                  </div>
-                  <p className="text-sm sm:text-base text-gray-300 leading-relaxed">{project.description}</p>
-                </div>
+            <FiX className="text-white" size={18} />
+          </button>
+
+          <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 pr-12">
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded-xl border border-white/20 flex-shrink-0"
+            />
+            <div className="flex-1 min-w-0">
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-2 leading-tight">
+                {project.title}
+              </h2>
+              <div className="flex flex-wrap items-center gap-2 sm:gap-4 mb-3 sm:mb-4">
+                <span
+                  className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-gradient-to-r ${getCategoryColor(
+                    project.category
+                  )} text-white`}
+                >
+                  {project.category}
+                </span>
+                <span
+                  className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-gradient-to-r ${getDifficultyColor(
+                    project.difficulty
+                  )} text-white`}
+                >
+                  {project.difficulty}
+                </span>
               </div>
+              <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+                {project.description}
+              </p>
             </div>
+          </div>
+        </div>
 
-            {/* Content */}
-            <div className="p-4 sm:p-6 space-y-4 sm:space-y-6">
-              {/* Technologies */}
-              <div>
-                <h3 className="text-base sm:text-lg font-semibold text-white mb-2 sm:mb-3 flex items-center gap-2">
-                  <FiCode className="text-cyan-400" size={16} />
-                  Technologies Used
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2 sm:px-3 py-1 sm:py-2 bg-white/10 backdrop-blur-sm rounded-lg text-xs sm:text-sm text-gray-300 border border-white/20"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              {/* Features */}
-              <div>
-                <h3 className="text-base sm:text-lg font-semibold text-white mb-2 sm:mb-3 flex items-center gap-2">
-                  <FiZap className="text-cyan-400" size={16} />
-                  Key Features
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  {project.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-center gap-2 text-gray-300">
-                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-cyan-400 flex-shrink-0"></div>
-                      <span className="text-xs sm:text-sm">{feature}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Links */}
-              <div>
-                <h3 className="text-base sm:text-lg font-semibold text-white mb-2 sm:mb-3 flex items-center gap-2">
-                  <FiGithub className="text-cyan-400" size={16} />
-                  Project Links
-                </h3>
-                <div className="flex mt-4 flex-col sm:flex-row gap-2 sm:gap-4">
-                  {project.codeLink && project.codeLink !== "#" && (
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 px-4 py-2 sm:py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 text-sm sm:text-base"
-                    >
-                      <FiGithub size={16} />
-                      View Live Link
-                    </a>
-                  )}
-                </div>
-                <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
-                  {project.codeLink && project.codeLink !== "#" && (
-                    <a
-                      href={project.codeLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 px-4 py-2 sm:py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 text-sm sm:text-base"
-                    >
-                      <FiGithub size={16} />
-                      View Code on GitHub
-                    </a>
-                  )}
-                </div>
-                
-              </div>
+        {/* Scrollable Content */}
+        <div className="p-4 sm:p-6 space-y-4 sm:space-y-6">
+          {/* Technologies */}
+          <div>
+            <h3 className="text-base sm:text-lg font-semibold text-white mb-2 sm:mb-3 flex items-center gap-2">
+              <FiCode className="text-cyan-400" size={16} />
+              Technologies Used
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {project.technologies.map((tech, idx) => (
+                <span
+                  key={idx}
+                  className="px-2 sm:px-3 py-1 sm:py-2 bg-white/10 backdrop-blur-sm rounded-lg text-xs sm:text-sm text-gray-300 border border-white/20"
+                >
+                  {tech}
+                </span>
+              ))}
             </div>
-          </motion.div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+          </div>
+
+          {/* Features */}
+          <div>
+            <h3 className="text-base sm:text-lg font-semibold text-white mb-2 sm:mb-3 flex items-center gap-2">
+              <FiZap className="text-cyan-400" size={16} />
+              Key Features
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {project.features.map((feature, idx) => (
+                <div key={idx} className="flex items-center gap-2 text-gray-300">
+                  <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-cyan-400 flex-shrink-0"></div>
+                  <span className="text-xs sm:text-sm">{feature}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Links */}
+          <div>
+            <h3 className="text-base sm:text-lg font-semibold text-white mb-2 sm:mb-3 flex items-center gap-2">
+              <FiGithub className="text-cyan-400" size={16} />
+              Project Links
+            </h3>
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
+              {project.liveLink && project.liveLink !== "#" && (
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 px-4 py-2 sm:py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 text-sm sm:text-base"
+                >
+                  <FiGithub size={16} />
+                  View Live Link
+                </a>
+              )}
+              {project.codeLink && project.codeLink !== "#" && (
+                <a
+                  href={project.codeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 px-4 py-2 sm:py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 text-sm sm:text-base"
+                >
+                  <FiGithub size={16} />
+                  View Code on GitHub
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
+
   );
 };
 
@@ -561,7 +578,7 @@ const ProjectCard = React.memo(({ project, index, onProjectClick }) => {
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleCardClick}
     >
-      <div className="relative bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 overflow-hidden transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:scale-105 group-hover:shadow-2xl group-hover:shadow-cyan-500/20">
+      <div className="relative bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 overflow-y-auto transition-all duration-500 hover:bg-white/10 hover:border-white/20 hover:scale-105 group-hover:shadow-2xl group-hover:shadow-cyan-500/20">
         {/* Image Container */}
         <div className="relative h-48 sm:h-56 lg:h-64 overflow-hidden">
           <img
