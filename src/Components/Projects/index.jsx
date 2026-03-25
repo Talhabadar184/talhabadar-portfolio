@@ -352,7 +352,7 @@ features: [
 ]
   },
   {
-    id: 4,
+    id: 5,
     title: "E-commerce with mui",
     description: "Developed a responsive e-commerce application using Material-UI and MERN stack. Implemented features like product listings, shopping cart, and user authentication.",
     image: "/mui.png",
@@ -364,7 +364,7 @@ features: [
     features: ["Product Listings", "Shopping Cart", "User Authentication", "Order Management", "Payment Integration"]
   },
   {
-    id: 5,
+    id: 4,
     title: "UCP Welfare Society",
     description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
     image: "/uws.png",
@@ -376,7 +376,7 @@ features: [
     features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
   },
   {
-    id: 5,
+    id: 6,
     title: "IEEE Computer Society UCP Chapter",
     description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
     image: "/ieecs.png",
