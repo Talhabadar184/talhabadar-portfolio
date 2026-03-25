@@ -365,6 +365,18 @@ features: [
   },
   {
     id: 5,
+    title: "UCP Welfare Society",
+    description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
+    image: "/uws.png",
+    liveLink: "https://nextjs-welfaresocety.vercel.app/",
+    codeLink: "",
+    technologies: ["Next", "Node.js", "Postgresql", "Express"],
+    category: "Full-Stack",
+    difficulty: "Advanced",
+    features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
+  },
+  {
+    id: 5,
     title: "IEEE Computer Society UCP Chapter",
     description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
     image: "/ieecs.png",
