@@ -322,6 +322,18 @@ const projects = [
   },
   {
     id: 2,
+    title: "UCP Welfare Society",
+    description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
+    image: "/uws.png",
+    liveLink: "https://nextjs-welfaresocety.vercel.app/",
+    codeLink: "",
+    technologies: ["Next", "Node.js", "Postgresql", "Express"],
+    category: "Full-Stack",
+    difficulty: "Advanced",
+    features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
+  },
+  {
+    id: 3,
     title: "Client's Portfolio",
     description:  "Responsive client portfolio website built with React. Showcases professional profile, projects, skills, and contact information with a modern UI and smooth user experience.",
     image: "/usama.png",
@@ -333,7 +345,7 @@ const projects = [
     features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
   },
   {
-    id: 3,
+    id: 4,
     title: "Thriftly - Pakistan's Leading Thrift Store",
     description: "Developed and maintained the official website for Thriftly, Pakistan's leading thrift store, using WordPress. Enhanced user experience by implementing custom themes and plugins, optimizing site performance, and ensuring mobile responsiveness.",
     image: "/thriftly.png",
@@ -352,19 +364,19 @@ features: [
 ]
   },
   {
-    id: 4,
-    title: "UCP Welfare Society",
+    id: 5,
+    title: "IEEE Computer Society UCP Chapter",
     description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
-    image: "/uws.png",
-    liveLink: "https://nextjs-welfaresocety.vercel.app/",
+    image: "/ieecs.png",
+    liveLink: "https://ieee-ucp.org",
     codeLink: "",
-    technologies: ["Next", "Node.js", "Postgresql", "Express"],
+    technologies: ["React", "Node.js", "MongoDB", "Express", "MERN Stack"],
     category: "Full-Stack",
     difficulty: "Advanced",
     features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
   },
   {
-    id: 5,
+    id: 6,
     title: "E-commerce with mui",
     description: "Developed a responsive e-commerce application using Material-UI and MERN stack. Implemented features like product listings, shopping cart, and user authentication.",
     image: "/mui.png",
@@ -375,18 +387,7 @@ features: [
     difficulty: "Advanced",
     features: ["Product Listings", "Shopping Cart", "User Authentication", "Order Management", "Payment Integration"]
   },
-  {
-    id: 6,
-    title: "IEEE Computer Society UCP Chapter",
-    description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
-    image: "/ieecs.png",
-    liveLink: "https://ieee-ucp.org",
-    codeLink: "",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "MERN Stack"],
-    category: "Full-Stack",
-    difficulty: "Advanced",
-    features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
-  }
+  
 ];
 const categories = ["All", "Full-Stack", "MERN-Stack", "WordPress", "Finance", "Enterprise"];
 

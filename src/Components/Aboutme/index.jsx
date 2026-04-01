@@ -22,8 +22,8 @@ const AboutMe = () => {
 
   const downloadCV = useCallback(() => {
     const link = document.createElement("a");
-    link.href = "/Talha_Badar_Resume.pdf";
-    link.download = "Talha_Badar_Resume.pdf";
+    link.href = "/Talha_Badar_Resume (1).pdf";
+    link.download = "Talha_Badar_Resume (1).pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -32,13 +32,13 @@ const AboutMe = () => {
   const stats = [
     {
       icon: <FaCode />,
-      number: "5+",
+      number: "6+",
       label: "Completed Projects",
       color: "from-blue-400 to-cyan-500",
     },
     {
       icon: <FaBrain />,
-      number: "2+",
+      number: "3+",
       label: "Years Experience",
       color: "from-purple-400 to-pink-500",
     },
@@ -57,7 +57,7 @@ const AboutMe = () => {
   ];
 
   const skills = [
-    "MERN-Stack Development",
+    "Full-Stack Development",
     "AI/ML Engineering",
     "Cloud Computing",
     "UI/UX Design",
@@ -114,7 +114,7 @@ const AboutMe = () => {
               {/* Main Image */}
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-80 lg:h-80 mx-auto overflow-hidden rounded-3xl shadow-2xl">
                 <img
-                  src="/talha1.jpeg"
+                  src="/talha3.JPG"
                   alt="Talha Badar"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                 />

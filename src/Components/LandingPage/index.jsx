@@ -28,7 +28,7 @@ const LandingPage = () => {
   }, []);
 
   const skills = [
-    { icon: <FiCode size={18} className="sm:w-5 sm:h-5" />, text: "MERN-Stack Development" },
+    { icon: <FiCode size={18} className="sm:w-5 sm:h-5" />, text: "Full-Stack Development" },
     { icon: <FaBrain size={18} className="sm:w-5 sm:h-5" />, text: "AI/ML Engineering" },
     { icon: <FaCogs size={18} className="sm:w-5 sm:h-5" />, text: " Cloud Computing" },
     { icon: <FiZap size={18} className="sm:w-5 sm:h-5" />, text: "UI/UX Design" }
@@ -131,7 +131,7 @@ const LandingPage = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.6, ease: "easeOut" }}
         >
-          BS Computer Science • MERN-Stack Developer • AI Engineer • Creative Problem Solver
+          BS Computer Science • Full-Stack Developer • AI Engineer • Creative Problem Solver
         </motion.p>
 
         {/* Skills Grid */}
