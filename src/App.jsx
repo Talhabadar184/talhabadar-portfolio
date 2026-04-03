@@ -17,8 +17,7 @@ import Footer from './Components/Footer/index';
 const App = () => {
   return (
     <>
-      <Analytics />
-      <SpeedInsights />
+   
 
       {/* All sections wrapped in Layout for background + header */}
       <Layout>
@@ -46,6 +45,9 @@ const App = () => {
         </section>
         <Footer />
       </Layout>
+
+         <Analytics />
+      <SpeedInsights />
     </>
   );
 };
