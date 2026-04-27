@@ -310,10 +310,28 @@ const projects = [
 
   {
     id: 1,
+   title: "Launch Pulse-AI-Powered Startup Evaluation Platform ",
+    description: "Built an AI-powered full-stack platform using Next.js, TypeScript, and PostgreSQL to predict startup success and analyze risk factors, integrating machine learning services via FastAPI for real-time insights, growth analysis, and market fit scoring. Designed type-safe APIs with tRPC, implemented scalable database architecture with Kysely, and developed features like document management and analytics dashboards. Deployed the application on Supabase and Vercel, ensuring a responsive, high-performance, and production-ready user experience.",
+    image: "/lp.png",
+    liveLink: "https://nextjs-launchpulse.vercel.app/",
+    codeLink: "https://github.com/hassan-jamshaid10/nextjs-launchpulse",
+  technologies: ["Next.js", "TypeScript", "tRPC", "PostgreSQL", "FastAPI", "Tailwind CSS", "AI/ML"],
+    category: "Full-Stack",
+    difficulty: "Advanced",
+features: [
+    "Startup Success Prediction",
+    "Risk Factor Analysis",
+    "Growth & Market Fit Scoring",
+    "Real-Time Analytics Dashboard",
+    "Document Management (Pitch Decks & Plans)",
+    "Type-Safe API Integration"
+  ]  },
+  {
+    id: 2,
    title: "Campus Nest - Hostel Management",
     description: "AI-powered hostel management application built with MERN stack. Features intelligent room allocation, student tracking, and automated administrative tasks.",
     image: "/campus.png",
-    liveLink: "https://campusnest1-vercel.vercel.app",
+    liveLink: "https://campusnest-one.vercel.app/",
     codeLink: "https://github.com/Talhabadar184/Campusnest",
     technologies: ["React", "Node.js", "MongoDB", "Express", "AI/ML", "MERN Stack"],
     category: "Full-Stack",
@@ -321,7 +339,7 @@ const projects = [
     features: ["Room Management", "Student Registration", "AI-Powered Allocation", "Payment Tracking", "Maintenance Requests"]
   },
   {
-    id: 2,
+    id: 3,
     title: "UCP Welfare Society",
     description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
     image: "/uws.png",
@@ -333,7 +351,7 @@ const projects = [
     features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
   },
   {
-    id: 3,
+    id: 4,
     title: "Client's Portfolio",
     description:  "Responsive client portfolio website built with React. Showcases professional profile, projects, skills, and contact information with a modern UI and smooth user experience.",
     image: "/usama.png",
@@ -345,7 +363,7 @@ const projects = [
     features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
   },
   {
-    id: 4,
+    id: 5,
     title: "Thriftly - Pakistan's Leading Thrift Store",
     description: "Developed and maintained the official website for Thriftly, Pakistan's leading thrift store, using WordPress. Enhanced user experience by implementing custom themes and plugins, optimizing site performance, and ensuring mobile responsiveness.",
     image: "/thriftly.png",
@@ -364,7 +382,7 @@ features: [
 ]
   },
   {
-    id: 5,
+    id: 6,
     title: "IEEE Computer Society UCP Chapter",
     description: "Assisted in developing and maintaining the official website for the IEEE Computer Society UCP Student Chapter with MERN stack. Contributed to creating a dynamic and user-friendly experience by updating content, posting event announcements, and managing student resources under supervision.",
     image: "/ieecs.png",
@@ -376,7 +394,7 @@ features: [
     features: ["Chapter Information", "Member Hierarchy", "Event Management", "Registration System", "Admin Panel"]
   },
   {
-    id: 6,
+    id: 7,
     title: "E-commerce with mui",
     description: "Developed a responsive e-commerce application using Material-UI and MERN stack. Implemented features like product listings, shopping cart, and user authentication.",
     image: "/mui.png",
