@@ -30,7 +30,7 @@ const LandingPage = () => {
   const skills = [
     { icon: <FiCode size={18} className="sm:w-5 sm:h-5" />, text: "Full-Stack Development" },
     { icon: <FaBrain size={18} className="sm:w-5 sm:h-5" />, text: "AI/ML Engineering" },
-    { icon: <FaCogs size={18} className="sm:w-5 sm:h-5" />, text: " Cloud Computing" },
+    { icon: <FaCogs size={18} className="sm:w-5 sm:h-5" />, text: " DevOps & Cloud Computing" },
     { icon: <FiZap size={18} className="sm:w-5 sm:h-5" />, text: "UI/UX Design" }
   ];
 

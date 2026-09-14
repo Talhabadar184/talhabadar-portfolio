@@ -59,7 +59,7 @@ const AboutMe = () => {
   const skills = [
     "Full-Stack Development",
     "AI/ML Engineering",
-    "Cloud Computing",
+    "DevOps & Cloud Computing",
     "UI/UX Design",
     "Database Design",
     "API Development",
@@ -172,7 +172,7 @@ const AboutMe = () => {
 
               <div className="space-y-3 sm:space-y-4 text-gray-300 leading-relaxed">
                 <p className="text-base sm:text-lg">
-                  As a MERN Stack developer, AI engineer, and ML/DL enthusiast, I'm passionate about developing cutting-edge digital solutions. Curiosity and a desire to find solutions to challenging issues have motivated my technological journey.
+                  As a MERN Stack developer, AI engineer, and AI/ML enthusiast, I'm passionate about developing cutting-edge digital solutions. Curiosity and a desire to find solutions to challenging issues have motivated my technological journey.
                 </p>
 
                 <p className="text-base sm:text-lg">
@@ -195,7 +195,7 @@ const AboutMe = () => {
               <span className=" mt-4 font-semibold text-white" >University of Central Punjab</span>
               </div>
               <div>
-              <p className="mt-2 text-sm sm:text-base text-white" >2022 - Present  </p>
+              <p className="mt-2 text-sm sm:text-base text-white" >Nov 2022 - July 2026  </p>
               </div>
             </div>
 
