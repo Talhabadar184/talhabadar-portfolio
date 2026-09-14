@@ -22,7 +22,7 @@ const AboutMe = () => {
 
   const downloadCV = useCallback(() => {
     const link = document.createElement("a");
-    link.href = "/Talha_Badar_Resume-1 (1).pdf";
+    link.href = "/Talha_Badar_Resume-1.pdf";
     link.download = "Talha_Badar_Resume-1 (1).pdf";
     document.body.appendChild(link);
     link.click();
@@ -39,7 +39,7 @@ const AboutMe = () => {
     {
       icon: <FaBrain />,
       number: "3+",
-      label: "Years Experience",
+      label: "Years of Development Experience",
       color: "from-purple-400 to-pink-500",
     },
     {
@@ -245,7 +245,7 @@ const AboutMe = () => {
               </motion.button>
 
               <motion.a
-                href="mailto:hjamshaid81@gmail.com"
+                href="mailto:talhabadar184@gmail.com"
                 className="group px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 hover:border-white/30 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 sm:gap-3"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
