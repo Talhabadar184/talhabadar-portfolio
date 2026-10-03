@@ -4,13 +4,16 @@ import { FiBriefcase, FiCalendar, FiMapPin, FiExternalLink, FiTrendingUp, FiCode
 import { FaRocket, FaBrain, FaCogs } from "react-icons/fa";
 
 const experiences = [
+  
   {
-    role: "MERN Stack Developer",
-    company: "Innovation.tech",
-    date: "August 2024 - October 2024",
-    logo: "https://innovationhightech.com/wp-content/uploads/2021/04/cropped-cropped-Redraw-Design-Friend-1.png",
-    description: "Developed and maintained mern-stack web applications, leveraging React for dynamic, responsive front-end interfaces, scalable back-end services. Implemented RESTful APIs and ensured high-performance application delivery through clean, maintainable code and industry best practices.",
-    skills: ["React", "Node.js", "REST APIs", " Redux "],
+    role: "AI Trainee Engineer",
+    company: "Hubble42",
+    date: "September 2026 - Present",
+    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQFzubXnAuUCYg/company-logo_200_200/company-logo_200_200/0/1690407735011?e=2147483647&v=beta&t=2VIYcUISGbDlwSAMaVKXkmi4QyD6R9WZ3oyN4NcJV3A",
+    description: `Developed and optimized prompts for LLMs to improve response accuracy, relevance, consistency, and task performance across AI workflows.
+\n Built LLM-powered applications using RAG, embeddings, and FastAPI, integrating AI models into practical software solutions.
+`,
+    skills: ["Python", "LLMs", "Prompt Engineering", "RAG", "FastAPI"],
     type: "Startup",
     icon: <FiCode />,
     gradient: "from-blue-400 to-cyan-500"
