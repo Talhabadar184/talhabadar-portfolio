@@ -18,6 +18,18 @@ const experiences = [
     icon: <FiCode />,
     gradient: "from-blue-400 to-cyan-500"
   },
+  {
+    role: "Software Engineer Intern",
+    company: "INNOVATION.TECH",
+    date: "August 2024 - October 2024",
+    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQFzubXnAuUCYg/company-logo_200_200/company-logo_200_200/0/1690407735011?e=2147483647&v=beta&t=2VIYcUISGbDlwSAMaVKXkmi4QyD6R9WZ3oyN4NcJV3A",
+    description: `•	Built RESTful APIs with Node.js/Express.js and developed a responsive e-commerce application using React.js, MUI, and Redux Toolkit.	Maintained clean, maintainable code and collaborated with engineers using Git/GitHub.
+`,
+    skills: ["MongoDB", "React.js", "Node.js", "Express.js"],
+    type: "Startup",
+    icon: <FiCode />,
+    gradient: "from-blue-400 to-cyan-500"
+  },
   
   {
     role: "Freelance Developer",
