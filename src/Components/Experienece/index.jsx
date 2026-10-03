@@ -22,7 +22,7 @@ const experiences = [
     role: "Software Engineer Intern",
     company: "INNOVATION.TECH",
     date: "August 2024 - October 2024",
-    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQFzubXnAuUCYg/company-logo_200_200/company-logo_200_200/0/1690407735011?e=2147483647&v=beta&t=2VIYcUISGbDlwSAMaVKXkmi4QyD6R9WZ3oyN4NcJV3A",
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFeTDXk2u6vog/company-logo_400_400/company-logo_400_400/0/1659298333899?e=1792627200&v=beta&t=y4PbgIO5QqGNZnAp-8fYJ9Qlm_a3hHgrNoPzI0DCntM",
     description: `•	Built RESTful APIs with Node.js/Express.js and developed a responsive e-commerce application using React.js, MUI, and Redux Toolkit.	Maintained clean, maintainable code and collaborated with engineers using Git/GitHub.
 `,
     skills: ["MongoDB", "React.js", "Node.js", "Express.js"],
@@ -35,7 +35,7 @@ const experiences = [
     role: "Freelance Developer",
     company: "International Clients",
     date: "2024 - Present",
-    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFeTDXk2u6vog/company-logo_400_400/company-logo_400_400/0/1659298333899?e=1792627200&v=beta&t=y4PbgIO5QqGNZnAp-8fYJ9Qlm_a3hHgrNoPzI0DCntM",
+    logo: "https://cdn.dribbble.com/users/2059160/screenshots/4413086/media/2dfeaf608392e326b8078431e1ac9f37.jpg?resize=400x300&vertical=center",
     description: "Delivering unique software solutions to customers worldwide via local projects, Fiverr, and Upwork.  committed to developing high-performing, responsive web apps and including customized features to meet particular company needs in order to guarantee outstanding customer pleasure and enduring collaborations.",
     skills: ["Performance Optimization", "Custom Solutions", "Client Management",  "Business Requirements"],
     type: "Freelance",
