@@ -14,7 +14,7 @@ const experiences = [
 \n Built LLM-powered applications using RAG, embeddings, and FastAPI, integrating AI models into practical software solutions.
 `,
     skills: ["Python", "LLMs", "Prompt Engineering", "RAG", "FastAPI"],
-    type: "Startup",
+    type: "Company",
     icon: <FiCode />,
     gradient: "from-blue-400 to-cyan-500"
   },
@@ -35,7 +35,7 @@ const experiences = [
     role: "Freelance Developer",
     company: "International Clients",
     date: "2024 - Present",
-    logo: "https://cdn.dribbble.com/users/2059160/screenshots/4413086/media/2dfeaf608392e326b8078431e1ac9f37.jpg?resize=400x300&vertical=center",
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFeTDXk2u6vog/company-logo_400_400/company-logo_400_400/0/1659298333899?e=1792627200&v=beta&t=y4PbgIO5QqGNZnAp-8fYJ9Qlm_a3hHgrNoPzI0DCntM",
     description: "Delivering unique software solutions to customers worldwide via local projects, Fiverr, and Upwork.  committed to developing high-performing, responsive web apps and including customized features to meet particular company needs in order to guarantee outstanding customer pleasure and enduring collaborations.",
     skills: ["Performance Optimization", "Custom Solutions", "Client Management",  "Business Requirements"],
     type: "Freelance",
