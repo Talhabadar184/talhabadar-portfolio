@@ -4,11 +4,23 @@ import { FiBriefcase, FiCalendar, FiMapPin, FiExternalLink, FiTrendingUp, FiCode
 import { FaRocket, FaBrain, FaCogs } from "react-icons/fa";
 
 const experiences = [
-  
+  {
+    role: "Junior Software Engineer",
+    company: "SoftVerx",
+    date: "November 2026 - Present",
+    logo: "https://www.softverx.com/assets/logo-mark.png",
+    description: `Develop and maintain enterprise ERP applications using Java and Spring Boot, working with Compiere and iDempiere to customize business functionalities and implement backend solutions.
+\n Build and integrate RESTful APIs and microservices, troubleshoot application issues, and enhance existing code to improve system functionality, reliability, and maintainability.
+`,
+    skills: ["Java" , "Spring Boot", "Compiere", "Microservices", "RESTful APIs", "Troubleshooting"],
+    type: "Company",
+    icon: <FiCode />,
+    gradient: "from-blue-400 to-cyan-500"
+  },
   {
     role: "AI Trainee Engineer",
     company: "Hubble42",
-    date: "September 2026 - Present",
+    date: "September 2026 - October 2026",
     logo: "https://media.licdn.com/dms/image/v2/D4D0BAQFzubXnAuUCYg/company-logo_200_200/company-logo_200_200/0/1690407735011?e=2147483647&v=beta&t=2VIYcUISGbDlwSAMaVKXkmi4QyD6R9WZ3oyN4NcJV3A",
     description: `Developed and optimized prompts for LLMs to improve response accuracy, relevance, consistency, and task performance across AI workflows.
 \n Built LLM-powered applications using RAG, embeddings, and FastAPI, integrating AI models into practical software solutions.
