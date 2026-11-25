@@ -12,21 +12,25 @@ import {
 import { RiBarChartHorizontalFill } from "react-icons/ri";
 import { FiCode, FiDatabase, FiGlobe, FiCloud, FiSettings } from "react-icons/fi";
 import { motion } from "framer-motion";
+import { SiOracle } from "react-icons/si"
+import { SiVercel, SiNetlify } from "react-icons/si"
 
 const techData = {
   frameworks: [
     { icon: <FaReact />, name: "React", color: "#61DBFB", category: "Frontend" },
     { icon: <SiNextdotjs />, name: "Next.js", color: "#000000", category: "Frontend" },
-    // { icon: <FaReactNative />, name: "React Native", color: "#61DBFB", category: "Mobile" },
+    { icon: <FaReactNative />, name: "React Native", color: "#61DBFB", category: "Mobile" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS", color: "#06B6D4", category: "Styling" },
     { icon: <SiThreedotjs />, name: "Three.js", color: "#000000", category: "3D Graphics" },
     { icon: <FaNodeJs />, name: "Node.js", color: "#68A063", category: "Backend" },
+    { icon: <SiSpringboot />, name: "Spring Boot", color: "#6DB33F", category: "Backend" },
     { icon: <SiRedux />, name: "Redux", color: "#764ABC", category: "State Management" }
   ],
   databases: [
     { icon: <SiPostgresql />, name: "PostgreSQL", color: "#336791", category: "SQL" },
     { icon: <SiMysql />, name: "MySQL", color: "#4479A1", category: "SQL" },
-    { icon: <SiMongodb />, name: "MongoDB", color: "#47A248", category: "NoSQL" }
+    { icon: <SiMongodb />, name: "MongoDB", color: "#47A248", category: "NoSQL" },
+    { icon: <SiOracle />, name: "Oracle", color: "#cb3434", category: "SQL" }
   ],
   ml: [
     { icon: <SiTensorflow />, name: "TensorFlow", color: "#FF6F00", category: "Deep Learning" },
@@ -47,11 +51,13 @@ const techData = {
   devops: [
     { icon: <FaGithub />, name: "GitHub", color: "#FFFFFF", category: "Version Control" },
     { icon: <FaAws />, name: "AWS", color: "#FF9900", category: "Cloud Platform" },
-    // { icon: <FaDocker />, name: "Docker", color: "#2496ED", category: "Containerization" },
+    { icon: <FaDocker />, name: "Docker", color: "#2496ED", category: "Containerization" },
+    { icon: <SiVercel />, name: "Vercel", color: "#FFFFFF", category: "Hosting / Deployment" },
+    { icon: <SiNetlify />, name: "Netlify", color: "#00C7B7", category: "Hosting / Deployment" },
     // { icon: <FaJenkins />, name: "Jenkins", color: "#D24939", category: "CI/CD" }
   ],
   testing: [
-    // { icon: <SiJest />, name: "Jest", color: "#C21325", category: "Testing" },
+    { icon: <SiJest />, name: "Jest", color: "#C21325", category: "Testing" },
     // { icon: <SiMocha />, name: "Mocha", color: "#8D6748", category: "Testing" },
     { icon: <SiPostman />, name: "Postman", color: "#FF6C37", category: "API Testing" }
   ],
